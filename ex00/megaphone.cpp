@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   megaphone.cpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ysumeral <ysumeral@student.42istanbul.c    +#+  +:+       +#+        */
+/*   By: ysumeral < ysumeral@student.42istanbul.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/23 09:04:58 by ysumeral          #+#    #+#             */
-/*   Updated: 2025/08/23 09:23:34 by ysumeral         ###   ########.fr       */
+/*   Updated: 2025/08/23 13:56:28 by ysumeral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char *to_upper(char *arg)
 	for (int i = 0; result[i] != '\0'; i++)
 	{
 		if (result[i] >= 'a' && result[i] <= 'z')
-			result[i] = result[i] - 32;
+			result[i] = std::toupper(result[i]);
 	}
 	return (result);
 }
