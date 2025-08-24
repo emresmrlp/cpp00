@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ysumeral < ysumeral@student.42istanbul.    +#+  +:+       +#+         #
+#    By: ysumeral <ysumeral@student.42istanbul.c    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/08/23 09:25:47 by ysumeral          #+#    #+#              #
-#    Updated: 2025/08/23 14:01:15 by ysumeral         ###   ########.fr        #
+#    Updated: 2025/08/24 09:02:08 by ysumeral         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CXX = g++
+CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 SRC = PhoneBook.cpp \
 	  Contact.cpp \
