@@ -6,7 +6,7 @@
 /*   By: ysumeral < ysumeral@student.42istanbul.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/23 15:19:46 by ysumeral          #+#    #+#             */
-/*   Updated: 2025/08/24 19:25:31 by ysumeral         ###   ########.fr       */
+/*   Updated: 2025/08/28 10:32:44 by ysumeral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ bool	searchContact(PhoneBook &phoneBook)
 		}
 		else if (index.length() != 1 || index[0] < '1' || index[0] > '8')
 		{
-			std::cout << "\n* Invalid index! (1-8 only)" << std::endl;
+			std::cout << "* Invalid index! (1-8 only)" << std::endl;
 			std::cout << "* Enter index (0) to exit." << std::endl;
 		}
 		else if (index[0] - '0' <= phoneBook.getNumContacts())
@@ -89,7 +89,7 @@ bool	searchContact(PhoneBook &phoneBook)
 			return true;
 		}
 		else
-			std::cout << "\n* Index not found!" << std::endl;
+			std::cout << "* Index not found!" << std::endl;
 	}
 	return true;
 }
